@@ -1,5 +1,6 @@
 # personalWebsite
 to spin up the docker container run the following command inside the webpage directory: 
+
 $ docker run \
     -it \
     --rm \
