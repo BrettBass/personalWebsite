@@ -2,8 +2,8 @@ version: '3.7'
 
 services:
 
-  sample:
-    container_name: sample
+  webpage:
+    container_name: webpage
     build:
       context: .
       dockerfile: Dockerfile
