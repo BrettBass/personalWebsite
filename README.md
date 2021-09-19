@@ -28,3 +28,7 @@ Since we want to use the container version of the “node_modules” folder, we 
 For more, review this Stack Overflow question.
 
 Finally, -e CHOKIDAR_USEPOLLING=true enables a polling mechanism via chokidar (which wraps fs.watch, fs.watchFile, and fsevents) so that hot-reloading will work.
+
+
+OR 
+$ docker-compose up -d --build
