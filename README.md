@@ -1,5 +1,9 @@
 # personalWebsite
-to spin up the docker container run the following command inside the webpage directory: 
+
+
+to create and spin up the docker container run the following commands inside the webpage directory: 
+
+$ docker build -t webpage:dev .
 
 $ docker run \
     -it \
